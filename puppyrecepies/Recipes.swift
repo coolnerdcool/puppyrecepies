@@ -10,7 +10,9 @@ import Foundation
 import UIKit
 import WebKit
 
-class puppyHelper {
+struct puppyHelper {
+	
+//	Properties for the use of the API
 	
 	let puppyURL = URL(string: "https://www.recipepuppy.com/api")
 	var caller = ""

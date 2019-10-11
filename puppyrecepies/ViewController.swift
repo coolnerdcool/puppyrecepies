@@ -9,11 +9,12 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate,  WKNavigationDelegate {
+class ViewController: UIViewController, UITextFieldDelegate,  WKNavigationDelegate {
 	
 	@IBOutlet weak var button: UIButton!
 	@IBOutlet weak var textField: UITextField!
 	
+//	Properties
 	let helper = puppyHelper()
 	
 	var ingridients = [String]()
@@ -22,44 +23,28 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 	override func viewDidLoad() {
 		
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
+		
+//		Do any additional setup after loading the view.
 		
 		textField.delegate = self
 	}
 	
 	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 		print("return pressed")
+//		Hide keyboard after returnkey is pressed.
 		textField.resignFirstResponder()
 		return false
 	}
 	
-	//	When pressed, store the array of ingredients.
+//	When pressed, store the array of ingredients.
 	@IBAction func buttonPressed(_ sender: UIButton) {
-		
 
 	}
 	
-	
+//	Use the array of ingredients with the RecipesRequest.
 	@IBAction func textFieldAction(_ sender: UITextField) {
-		
-	}
 	
-	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return 1
 		
 	}
-	
-	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as! UITableViewCell
-		let label = "Test"
-		
-		cell.textLabel?.text = label
-		cell.backgroundColor = .cyan
-		
-		
-		return cell
-	}
-
-
 }
 
