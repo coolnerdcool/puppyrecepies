@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5077A4772350214C0047C8BD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5077A4762350214C0047C8BD /* Helper.swift */; };
 		50F25342234FAB2D000C67AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F25341234FAB2D000C67AA /* AppDelegate.swift */; };
 		50F25344234FAB2D000C67AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F25343234FAB2D000C67AA /* SceneDelegate.swift */; };
 		50F25346234FAB2D000C67AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F25345234FAB2D000C67AA /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5077A4762350214C0047C8BD /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		50F2533E234FAB2C000C67AA /* puppyrecepies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = puppyrecepies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F25341234FAB2D000C67AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F25343234FAB2D000C67AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				50F25341234FAB2D000C67AA /* AppDelegate.swift */,
 				50F25343234FAB2D000C67AA /* SceneDelegate.swift */,
 				50F25345234FAB2D000C67AA /* ViewController.swift */,
+				5077A4762350214C0047C8BD /* Helper.swift */,
 				50F25347234FAB2D000C67AA /* Main.storyboard */,
 				50F2534D234FAB2E000C67AA /* Assets.xcassets */,
 				50F2534F234FAB2E000C67AA /* LaunchScreen.storyboard */,
@@ -205,6 +208,7 @@
 			files = (
 				50F2534C234FAB2D000C67AA /* puppyrecepies.xcdatamodeld in Sources */,
 				50F25346234FAB2D000C67AA /* ViewController.swift in Sources */,
+				5077A4772350214C0047C8BD /* Helper.swift in Sources */,
 				50F25342234FAB2D000C67AA /* AppDelegate.swift in Sources */,
 				50F25344234FAB2D000C67AA /* SceneDelegate.swift in Sources */,
 			);
