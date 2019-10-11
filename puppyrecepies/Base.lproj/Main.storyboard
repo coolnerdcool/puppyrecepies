@@ -66,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="126.5625"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="jeE-4e-vbU">
             <objects>
-                <viewController id="LGk-Tt-bY1" sceneMemberID="viewController">
+                <viewController id="LGk-Tt-bY1" customClass="DetailViewController" customModule="puppyrecipes" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PHo-HA-kNh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

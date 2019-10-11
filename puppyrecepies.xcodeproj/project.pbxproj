@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5077A4772350214C0047C8BD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5077A4762350214C0047C8BD /* Helper.swift */; };
+		5077A47923510CA90047C8BD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5077A47823510CA80047C8BD /* DetailViewController.swift */; };
 		50F25342234FAB2D000C67AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F25341234FAB2D000C67AA /* AppDelegate.swift */; };
 		50F25344234FAB2D000C67AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F25343234FAB2D000C67AA /* SceneDelegate.swift */; };
 		50F25346234FAB2D000C67AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F25345234FAB2D000C67AA /* ViewController.swift */; };
@@ -30,7 +31,8 @@
 
 /* Begin PBXFileReference section */
 		5077A4762350214C0047C8BD /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		50F2533E234FAB2C000C67AA /* puppyrecepies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = puppyrecepies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5077A47823510CA80047C8BD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		50F2533E234FAB2C000C67AA /* puppyrecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = puppyrecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F25341234FAB2D000C67AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F25343234FAB2D000C67AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		50F25345234FAB2D000C67AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +76,7 @@
 		50F2533F234FAB2C000C67AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50F2533E234FAB2C000C67AA /* puppyrecepies.app */,
+				50F2533E234FAB2C000C67AA /* puppyrecipes.app */,
 				50F25357234FAB2F000C67AA /* puppyrecepiesTests.xctest */,
 			);
 			name = Products;
@@ -85,6 +87,7 @@
 			children = (
 				50F25341234FAB2D000C67AA /* AppDelegate.swift */,
 				50F25343234FAB2D000C67AA /* SceneDelegate.swift */,
+				5077A47823510CA80047C8BD /* DetailViewController.swift */,
 				50F25345234FAB2D000C67AA /* ViewController.swift */,
 				5077A4762350214C0047C8BD /* Helper.swift */,
 				50F25347234FAB2D000C67AA /* Main.storyboard */,
@@ -122,7 +125,7 @@
 			);
 			name = puppyrecepies;
 			productName = puppyrecepies;
-			productReference = 50F2533E234FAB2C000C67AA /* puppyrecepies.app */;
+			productReference = 50F2533E234FAB2C000C67AA /* puppyrecipes.app */;
 			productType = "com.apple.product-type.application";
 		};
 		50F25356234FAB2F000C67AA /* puppyrecepiesTests */ = {
@@ -209,6 +212,7 @@
 				50F2534C234FAB2D000C67AA /* puppyrecepies.xcdatamodeld in Sources */,
 				50F25346234FAB2D000C67AA /* ViewController.swift in Sources */,
 				5077A4772350214C0047C8BD /* Helper.swift in Sources */,
+				5077A47923510CA90047C8BD /* DetailViewController.swift in Sources */,
 				50F25342234FAB2D000C67AA /* AppDelegate.swift in Sources */,
 				50F25344234FAB2D000C67AA /* SceneDelegate.swift in Sources */,
 			);
@@ -378,7 +382,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.coolnerdcool.puppyrecepies;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = puppyrecipes;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.coolnerdcool.puppyrecepies;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = puppyrecipes;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

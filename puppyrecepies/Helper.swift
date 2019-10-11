@@ -8,7 +8,12 @@
 
 import Foundation
 import UIKit
+import WebKit
 
 class puppyHelper {
+	
+	let puppyURL = URL(string: "https://www.recipepuppy.com/api")
+	var caller = ""
+	
 	
 }

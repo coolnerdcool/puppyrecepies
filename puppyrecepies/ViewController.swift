@@ -7,27 +7,36 @@
 //
 
 import UIKit
+import WebKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate,  WKNavigationDelegate {
 	
 	@IBOutlet weak var button: UIButton!
 	@IBOutlet weak var textField: UITextField!
 	
-	var ingridients = [String]()
+	let helper = puppyHelper()
 	
+	var ingridients = [String]()
+	var webView: WKWebView!
 	
 	override func viewDidLoad() {
 		
-		let puppyAPIURL = URL(string: "https://recipepuppy.com/api")
-		
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
+		
+		textField.delegate = self
+	}
+	
+	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+		print("return pressed")
+		textField.resignFirstResponder()
+		return false
 	}
 	
 	//	When pressed, store the array of ingredients.
 	@IBAction func buttonPressed(_ sender: UIButton) {
 		
-		
+
 	}
 	
 	
@@ -36,7 +45,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 	}
 	
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-				
 		return 1
 		
 	}
