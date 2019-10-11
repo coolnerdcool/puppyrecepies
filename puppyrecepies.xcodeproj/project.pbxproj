@@ -89,10 +89,10 @@
 			children = (
 				50F25341234FAB2D000C67AA /* AppDelegate.swift */,
 				50F25343234FAB2D000C67AA /* SceneDelegate.swift */,
-				5077A47823510CA80047C8BD /* DetailViewController.swift */,
 				50F25345234FAB2D000C67AA /* ViewController.swift */,
-				50F186582351333500BCCA91 /* RecipesRequest.swift */,
+				5077A47823510CA80047C8BD /* DetailViewController.swift */,
 				5077A4762350214C0047C8BD /* Recipes.swift */,
+				50F186582351333500BCCA91 /* RecipesRequest.swift */,
 				50F25347234FAB2D000C67AA /* Main.storyboard */,
 				50F2534D234FAB2E000C67AA /* Assets.xcassets */,
 				50F2534F234FAB2E000C67AA /* LaunchScreen.storyboard */,
