@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import WebKit
 
+
 struct puppyHelper {
 	
 //	Properties for the use of the API
