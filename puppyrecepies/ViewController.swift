@@ -16,6 +16,7 @@ class ViewController: UIViewController, UITextFieldDelegate,  WKNavigationDelega
 	
 //	Properties
 	let helper = puppyHelper()
+	let detailVC = DetailViewController()
 	
 	var ingridients = [String]()
 	var webView: WKWebView!
@@ -27,12 +28,15 @@ class ViewController: UIViewController, UITextFieldDelegate,  WKNavigationDelega
 //		Do any additional setup after loading the view.
 		
 		textField.delegate = self
+		
 	}
 	
 	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+		
 		print("return pressed")
 //		Hide keyboard after returnkey is pressed.
 		textField.resignFirstResponder()
+		show(detailVC as UIViewController, sender: nil)
 		return false
 	}
 	

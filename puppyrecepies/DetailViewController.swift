@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import WebKit
 
 class DetailViewController: UIViewController {
 	
@@ -15,6 +16,7 @@ class DetailViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		view.backgroundColor = .red
 		
 		
 	}
