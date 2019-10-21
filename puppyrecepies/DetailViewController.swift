@@ -10,13 +10,25 @@ import Foundation
 import UIKit
 import WebKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, WKNavigationDelegate {
 	
 	let helper = puppyHelper()
+	var webView: WKWebView!
+	
+	override func loadView() {
+		webView = WKWebView()
+		webView.navigationDelegate = self
+		view = webView
+		
+	}
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		view.backgroundColor = .red
+		
+		let url  = URL(string: "https://www.recipepuppy.com")!
+		webView.load(URLRequest(url: url))
+		webView.allowsBackForwardNavigationGestures = true
+		
 		
 		
 	}
